@@ -4,7 +4,7 @@
       "module": "commonjs",
       "moduleResolution": "node",
       "target": "ESNext",
-      "outDir": "build",
+      "outDir": "./dist",
       "sourceMap": false,
       "esModuleInterop": true,
       "experimentalDecorators": true,

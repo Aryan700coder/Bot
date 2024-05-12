@@ -1,0 +1,8 @@
+-- CreateTable
+CREATE TABLE "Post" (
+    "id" INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    "title" TEXT NOT NULL,
+    "thumbnail" TEXT NOT NULL,
+    "content" TEXT NOT NULL,
+    "uploadedDateTime" DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
